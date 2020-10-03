@@ -1,0 +1,39 @@
+target: Action.class BankPoints.class Battle.class Card.class CardType.class ElementType.class Game.class Level.class Monster.class Name.class SummoningBank.class
+	javac 	
+
+Action.class: Action.java
+	javac Action.java
+
+BankPoints.class: BankPoints.java
+	javac BankPoints.java
+
+Battle.class: Battle.java
+	javac Battle.java
+
+Card.class: Card.java Name.java CardType.java ElementType.java BankPoints.java
+	javac Card.java
+
+CardType.class: CardType.java
+	javac CardType.java
+
+ElementType.class: ElementType.java
+	javac ElementType.java
+
+Game.class: Game.java
+	javac Game.java
+
+Level.class: Level.java
+	javac Level.java
+
+Monster.class: Monster.java Battle.java  
+	javac Monster.java
+
+Name.class: Name.java
+	javac Name.java
+
+SummoningBank.class: SummoningBank.java
+	javac SummoningBank.java
+
+
+run: 
+	
