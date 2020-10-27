@@ -6,13 +6,8 @@ A text-based card game written in Java for Computing II Fall 2019 course at IUPU
 ## Game Rules
 
 ## Prerequisites
-- Javac
-- Linux Environment
-
-## Installation
-```Java
-
-```
+Javac
 
 ## Usage
-
+make
+make run
